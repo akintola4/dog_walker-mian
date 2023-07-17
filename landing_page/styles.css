@@ -5,24 +5,22 @@
 }
 
 body {
-    background-color: #fff;
-    color: #000;
+    color: #fff !important;
+    background-color: #FB6F92 !important;
     display: block;
-
     font-family: sans-serif;
 }
 
-main {
-    margin: 0 3%;
+
+.hero_back {
+  
+    background-image: url(/images/back.png);
 }
 
-.hero {
+.hero{
+    height: 80vh;
     align-items: center;
-    background-image: transparent, url(/images/house4.png);
-    height: 100vh;
-
 }
-
 .title {
     width: 50%;
 
@@ -34,9 +32,9 @@ main {
     margin-top: 3%;
     padding: 2%;
     border: solid transparent;
-    background: #FB6F92;
+    background: #fff;
     width: 29.5%;
-    color: #fff;
+    color: #FB6F92;
     border-radius: 10px;
     width: 30%;
     cursor: pointer;
@@ -51,26 +49,30 @@ main {
 
 .hero_btn>a:hover{
     text-decoration: none;
-    color: #FB6F92;
+
     cursor: pointer;    
 }
 
 #services {
     text-align: center;
-    height: 70vh;
+    color: black;
+    margin: 0 5%;
+
 }
 .hero_btn:hover {
 
-    border: solid #FB6F92;
-    background: transparent;
-    color: #FB6F92;
+    border: solid rgba(255, 234, 2, 0.75);
+    color: #fff;
+    background-color: rgba(255, 234, 2, 0.75);
 }
 
 .hero_text4 {
 
     width: 40%;
 }
-
+.dog_reviews{
+    margin: 0 5%;
+}
 .hero_img {
     width: 50%;
     height: 50%;
@@ -89,13 +91,9 @@ main {
     flex-wrap: wrap;
 
 }
-.pink{
-    background-color: #FB6F92;
-    color: #fff;
-}
+
 .dog-hover:hover{
-    background-color: #FB6F92;
-    color: #fff;
+    color: #FB6F92;
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgba(255, 234, 2, 0.75);
@@ -106,12 +104,13 @@ main {
 }
 .dog_details{
     font-size:1rem;
+    color: #FB6F92;
 }
 footer{
     padding: 0 3%; 
-    color: #fff;
+    color: #FB6F92;
     text-decoration: none;
-    background-color: #FB6F92;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -133,3 +132,6 @@ a{
 .site_map>ul>li{
     padding: 3% 0;
 } 
+.pink{
+    color: #FB6F92;
+}
